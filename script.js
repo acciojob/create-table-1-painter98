@@ -9,6 +9,6 @@ function insert_Row() {
 	  td.innerText = `New Cell${col+1}`;
 	  tr.appendChild(td);
 	}
-	myTable.appendChild(tr);
+	myTable.prepend(tr);
 }
 
