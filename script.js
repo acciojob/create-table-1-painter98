@@ -11,8 +11,8 @@ function insert_Row() {
 	}
 	myTable.prepend(tr);*/
 
-	var table = document.getElementById('sampleTable');
-	var newRow = table.insertRow(0);
+	var myTable = document.getElementById('sampleTable');
+	var newRow = myTable.insertRow(0);
 
 	var leftcell = newRow.insertCell(0);
 	var rightcell = newRow.insertCell(1);
